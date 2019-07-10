@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">磁力搜索</string>
+    <string name="xl_package_name">com.xunlei.downloadprovider</string>
+
+    <string name="title_dialog">提示</string>
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="date">时间</string>
+    <string name="hot">热度</string>
+    <string name="size">大小</string>
+    <string name="slest_option">选择操作</string>
+
+    <string name="magnet_date">日期:%1$s</string>
+    <string name="magnet_size">大小:%1$s</string>
+    <string name="magnet_hot">数量:%1$s</string>
+    <string name="search_source">搜索来源：%1$s</string>
+    <string name="search_sort">结果排序：%1$s</string>
+</resources>

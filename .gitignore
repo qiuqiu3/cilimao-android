@@ -1,0 +1,8 @@
+/local.properties
+/.idea
+.gradle
+/gradle.properties
+/gradle
+/gradlew
+/gradlew.bat
+/AndroidMagnetSearch.iml

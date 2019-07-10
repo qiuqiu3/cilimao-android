@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_bar_height"
+    android:background="@color/colorMain">
+
+    <com.coorchice.library.SuperTextView
+        android:id="@+id/close_view"
+        android:layout_width="@dimen/top_bar_back_width"
+        android:layout_height="@dimen/top_bar_height"
+        android:gravity="center"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="@dimen/top_bar_back_text_size"
+        app:pressTextColor="@color/colorAccent"
+        app:isShowState="true"
+        app:state_drawable="@drawable/ic_back"
+        app:state_drawable_mode="left"
+        app:state_drawable_padding_left="@dimen/default_pad"
+        app:state_drawable_height="@dimen/top_bar_back_icon_height"
+        app:state_drawable_width="@dimen/top_bar_back_icon_height" />
+
+    <TextView
+        android:id="@+id/topBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_bar_height"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/top_bar_title_text_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.coorchice.library.SuperTextView
+        android:id="@+id/right_view"
+        android:layout_width="@dimen/top_bar_right_width"
+        android:layout_height="@dimen/top_bar_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/top_bar_back_text_size"
+        app:state_drawable_width="@dimen/top_nav_icon_height"
+        app:state_drawable_height="@dimen/top_nav_icon_height"/>
+</RelativeLayout>

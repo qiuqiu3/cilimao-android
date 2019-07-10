@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="@color/colorMain">
+
+    <com.coorchice.library.SuperTextView
+        android:id="@+id/close_view"
+        android:layout_width="30dp"
+        android:layout_height="@dimen/top_bar_height"
+        android:gravity="center"
+        app:isShowState="true"
+        app:state_drawable="@drawable/ic_back"
+        app:state_drawable_mode="left"
+        app:state_drawable_padding_left="@dimen/default_pad"
+        app:state_drawable_height="@dimen/top_bar_back_icon_height"
+        app:state_drawable_width="@dimen/top_bar_back_icon_height" />
+
+    <EditText
+        android:id="@+id/input_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:imeOptions="actionSearch"
+        android:gravity="bottom"
+        android:layout_weight="8"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp"
+        android:paddingBottom="1dp"
+        android:textCursorDrawable="@null"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:background="@drawable/style_bottom_linefff"
+        android:textColorHint="@color/gray_8f"
+        android:hint="输入搜索关键字"/>
+    <com.coorchice.library.SuperTextView
+        android:id="@+id/btn_search"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:corner="10dp"
+        app:right_top_corner="true"
+        app:right_bottom_corner="true"
+        app:isShowState="true"
+        app:state_drawable="@drawable/ic_search"
+        app:state_drawable_mode="leftBottom"
+        app:state_drawable_height="30dp"
+        app:state_drawable_width="30dp"/>
+</LinearLayout>

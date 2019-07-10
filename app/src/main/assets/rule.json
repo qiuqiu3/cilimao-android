@@ -1,0 +1,17 @@
+[
+    {
+        "site": "磁力猫",
+        "waiting": "0",
+        "group": "//div[starts-with(@class,'Search__result___')]",
+        "magnet": ".//a[1]//@href",
+        "name": ".//a",
+        "size": ".//em[./text()='文件大小：']/following::text()[2]",
+        "count": ".//em[./text()='创建时间：']/following::text()[2]",
+        "hot": ".//em[./text()='文件数量：']/following::text()[2]",
+        "url": "https://www.cilimao.at",
+        "source": "https://www.cilimao.at/search?word=%1$s&sortProperties=%2$s&page=%3$s&resourceSource=0",
+        "hotsort": "download_count",
+        "datesort": "created_time",
+        "sizesort": "content_size"
+    }
+]

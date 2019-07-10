@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/magnet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_pad2"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/colorMain"
+        android:textSize="14sp"
+        android:lines="2"
+        android:text="@string/app_name"
+        android:ellipsize="end" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_pad2">
+            <TextView
+                android:id="@+id/magnet_date"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_pad2"
+                android:textColor="@color/gray_8f"
+                android:textSize="@dimen/file_item_text_size"
+                android:text="@string/magnet_date"/>
+
+            <TextView
+                android:id="@+id/magnet_size"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_pad2"
+                android:textColor="@color/gray_8f"
+                android:textSize="@dimen/file_item_text_size"
+                android:text="@string/magnet_size"/>
+
+            <TextView
+                android:id="@+id/magnet_hot"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_pad2"
+                android:textColor="@color/gray_8f"
+                android:textSize="@dimen/file_item_text_size"
+                android:text="@string/magnet_hot"/>
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_cccc"
+        android:layout_marginLeft="@dimen/default_pad"
+        android:layout_marginRight="@dimen/default_pad"/>
+
+</LinearLayout>

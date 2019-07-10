@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/copy" android:icon="@drawable/ic_copy" android:title="复制连接"/>
+    <item android:id="@+id/xl" android:icon="@drawable/ic_xl" android:title="迅雷下载"/>
+    <item android:id="@+id/cancel" android:icon="@drawable/ic_cancel" android:title="@string/cancel"/>
+</menu>
